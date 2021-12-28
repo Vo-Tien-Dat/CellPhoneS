@@ -1,0 +1,10 @@
+
+
+.QuangCaoSanPham{
+    border: 1px solid white;
+    
+}
+
+.QuangCaoSanPham:hover{
+    background-color: pink;
+}

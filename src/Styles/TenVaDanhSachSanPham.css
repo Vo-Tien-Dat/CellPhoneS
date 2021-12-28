@@ -1,0 +1,18 @@
+.TenVaDanhSachSanPham{
+    margin-top:20px;
+    display: block;
+}
+
+.Ten{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.TenVaDanhSachSanPham .DanhSachSanPham{
+    height: 300px;
+    display: flex;  
+    width: 98%;
+    margin:auto;
+    margin-top: 20px;
+}

@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+
+import './Styles/index.css';
+
 import reportWebVitals from './reportWebVitals';
+import QuangCaoSanPham from './Components/QuangCaoSanPham';
+import DanhMucSanPham from './Components/DanhMucSanPham';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <QuangCaoSanPham/>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('QuangCaoSanPham')
+)
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <DanhMucSanPham />
+  </React.StrictMode>,
+  document.getElementById('DanhMucSanPham')
 );
 
 // If you want to start measuring performance in your app, pass a function
