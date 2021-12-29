@@ -18,14 +18,18 @@ code {
     clear: both;
 }
 
-
+.Bannel{
+  position: fixed;
+  top:0px;
+}
 
 ul{
   list-style-type: none;
   display: flex;
   margin:auto;
-  border: 1px solid yellow;
   background-color: yellow;
+  display: block;
+  width: 100%;
 }
 
 li{
@@ -37,16 +41,22 @@ li{
   text-align: center;
 }
 
+
+
 li:hover{
   background-color: white;
 }
+
+
 
 .QuangCaoSanPhamVaThongTin{
     height: 400px;
     width: 90%;
     border: 1px solid white;
     display: flex;
-    margin: auto;
+    margin: auto; 
+    border: 1px solid white;
+    margin-top:80px;
 }
 
 .QuangCaoSanPhamVaThongTin #QuangCaoSanPham{
@@ -63,7 +73,7 @@ li:hover{
     height: 96%;
     width: 26%;
     margin: auto;
-    border: 1px solid red;
+    border: 1px solid white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius:2%;
 }
